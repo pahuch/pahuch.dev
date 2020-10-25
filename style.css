@@ -1,0 +1,70 @@
+body {
+  background-color: white;
+  user-select: none;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  height: 10vh;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  height: 5vh;
+}
+
+li {
+  display: inline;
+  font-size: 14px;
+  color: lightgrey;
+  transition: 0.3s;
+  grid-column: span 1;
+  text-align: center;
+}
+
+li:hover {
+  color: black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+#on {
+  color: black;
+}
+
+.thumbnail {
+  height: 15px;
+}
+
+@media (max-width: 640px) {
+  body {
+    position: absolute;
+    left: 2%;
+    right: 2%;
+  }
+}
