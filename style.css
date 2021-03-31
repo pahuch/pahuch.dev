@@ -1,74 +1,50 @@
-body {
-  background-color: white;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  position: absolute;
-  left: 15%;
-  right: 15%;
-  font-family: Verdana, Geneva, sans-serif;
-}
+*
+{
+  
+  margin: 0px;
+  padding:0px;
+  border: none;
 
-header {
-  font-size: 30px;
-  text-align: center;
-  padding: 1vh 1vw;
-  margin: 1vh 1vw;
-  height: 5vh;
-}
-
-nav {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  padding: 1vh 1vw;
-  margin: 1vh 1vw;
-  height: 5vh;
-}
-
-li {
-  display: inline;
-  font-size: 14px;
-  color: lightgrey;
-  transition: 0.3s;
-  grid-column: span 1;
-  text-align: center;
-}
-
-li:hover {
-  color: black;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-}
-
-a, a:link, a:visited, a:active {
+  background-color: rgba(0,0,0,0.0);
+  color: rgba(0,0,0,0.0);
   text-decoration: none;
+}
+
+body
+{
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  bottom: 5%;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header
+{
+  font-size: 36px;
   color: black;
 }
 
-a:hover {
+section
+{
+  margin-top: 20px;
+}
+
+p
+{
+  font-size: 24px;
   color: grey;
+}
+
+a
+{
+  font-size: inherit;
+  color: inherit;
+}
+
+a:hover
+{
   text-decoration: underline;
-}
-
-#on {
-  color: black;
-}
-
-.thumbnail {
-  height: 15px;
-}
-
-@media (max-width: 640px) {
-  body {
-    position: absolute;
-    left: 2%;
-    right: 2%;
-  }
 }
