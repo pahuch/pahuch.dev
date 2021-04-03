@@ -10,6 +10,12 @@
   text-decoration: none;
 }
 
+#pahuctech
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
 body
 {
   position: absolute;
@@ -29,10 +35,11 @@ header
 
 section
 {
+  max-width: 400px;
   margin-top: 20px;
 }
 
-p
+p, span
 {
   font-size: 24px;
   color: grey;

@@ -1,3 +1,0 @@
-# Pahuch Tech
-
-Website
